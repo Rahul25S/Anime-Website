@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: Nsans Regular;
+    src: url("./assets/para.otf");
+}
+@font-face {
+    font-family: Nsans Title;
+    src: url("./assets/title.otf");
+}
+@font-face {
+    font-family: Nsans Head;
+    src: url("./assets/Head.otf");
+}
+body{
+    font-family:"Nsans Regular",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;
+    color:white
+
+}
